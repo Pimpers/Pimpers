@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E3C72,100:8E2DE2&height=220&section=header&text=안녕하세요%20There,%20저는%20P박태원입니다%20👋&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Game%20Developer%20|%20C%23%20&%20Unity&descAlignY=58&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E3C72,100:8E2DE2&height=220&section=header&text=안녕하세요%20저는%20박태원입니다%20👋&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Game%20Developer%20|%20C%23%20&%20Unity&descAlignY=58&descSize=18" width="100%"/>
 
 <br/>
 
