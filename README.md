@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E3C72,100:8E2DE2&height=220&section=header&text=Hi%20There,%20I'm%20Pimper%20👋&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Game%20Developer%20|%20C%23%20&%20Unity&descAlignY=58&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E3C72,100:8E2DE2&height=220&section=header&text=안녕하세요%20There,%20저는%20P박태원입니다%20👋&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Game%20Developer%20|%20C%23%20&%20Unity&descAlignY=58&descSize=18" width="100%"/>
 
 <br/>
 
@@ -17,11 +17,11 @@
 
 ## 👨‍💻 About Me
 
-- 🎮 **Game Developer** focused on **C#** and the **Unity** engine
-- 🛠️ Interested in gameplay systems, tools programming, and performance optimization
-- 🌱 Always exploring new Unity features and clean C# architecture patterns
-- 📍 Based in Seoul, South Korea
-- ⚡ Fun fact: turning ideas into playable prototypes is my favorite part of the job
+- 🎮 C#을 사용해서 unity 공부를 하고 있어요
+- 🛠️ 관심있는것은 게임을 플레이하고 게임을 개발하는것을 목표로삼고 있어요
+- 🌱 C#을 공부해서 유니티로 로그라이크 게임을 만드는 것이 꿈이에요
+- 📍 서울시에 살아요
+- ⚡오늘도 화이팅입니다.
 
 <br/>
 
