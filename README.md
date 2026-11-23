@@ -1,35 +1,52 @@
-# 박태원
+# 박태원 | Game Developer
 
-Unity / C# 게임 개발자 지망생 · 유한대학교
+Unity / C# 기반 게임 시스템 구현
 
-게임 개발자로 일하고 싶습니다.
-관심 분야는 카드 빌드, 난이도, 보스 AI 같은 게임 시스템 구현이고, 아래 첫 번째 프로젝트가 그 방향으로 만든 결과물입니다.
+| | |
+|---|---|
+| **지망** | 게임 개발자 (Unity, C#) |
+| **관심 분야** | 카드 빌드, 난이도, 보스 AI 같은 게임 시스템 구현 |
+| **학교** | 유한대학교 |
+| **대표 작업** | [고양이 용병단](https://github.com/Pimpers/team) — Unity 2D 로그라이크 |
+
+---
 
 ## 대표 프로젝트
 
-### 고양이 용병단 — Unity 2D 로그라이크
+### 고양이 용병단 (Unity 2D 로그라이크)
 
-[저장소](https://github.com/Pimpers/team) · 2026 · 팀 프로젝트(코드 담당) · Unity 6, C#
+| | |
+|---|---|
+| **개요** | 스테이지를 돌파하며 카드로 빌드를 만들고, 마을에서 영구 강화를 하는 픽셀 로그라이크 |
+| **기간 / 형태** | 2026 · 팀 프로젝트 |
+| **담당** | 코드 (게임플레이 · 시스템) |
+| **기술** | Unity 6, C#, URP 2D, Input System, PowerShell |
+| **규모** | C# 스크립트 164개 (약 2만 줄), 씬 17개, 커밋 180개 |
+| **저장소** | [Pimpers/team](https://github.com/Pimpers/team) |
 
-스테이지를 돌파하며 카드로 빌드를 만들고, 마을에서 영구 강화를 하는 픽셀 로그라이크입니다.
-C# 스크립트 164개(약 2만 줄), 씬 17개, 커밋 180개.
+**주요 시스템**
 
-코드 담당으로 다룬 주요 시스템
+| 시스템 | 내용 | 코드 |
+|---|---|---|
+| 카드 · 스킬 | 4종류 × 3등급 카드, 태그 세트 보너스. 카드 수치는 JSON으로 분리해 코드 수정 없이 밸런스 조정 | [CardPool](https://github.com/Pimpers/team/blob/master/Assets/CS/CardPool.cs) |
+| 난이도 (타락도) | 5단계. 체력·속도·골드 수치와 함정 2배, 엘리트 분노, 보스 2페이즈 시작 같은 규칙을 단계별로 변경 | [Corruption](https://github.com/Pimpers/team/blob/master/Assets/CS/Corruption.cs) |
+| 보스 AI | 3페이즈 상태머신, 그로기 시스템, 플레이테스트에서 발견한 발판 캠핑 대응 | [BossBrain](https://github.com/Pimpers/team/blob/master/Assets/CS/BossBrain.cs) |
+| 영구 성장 · 저장 | 골드 업그레이드, 세이브 데이터 마이그레이션 | [MetaProgress](https://github.com/Pimpers/team/blob/master/Assets/CS/MetaProgress.cs) |
+| 개발 도구 | Editor 스크립트와 PowerShell로 씬 생성, 에셋 후처리 자동화 | [Editor](https://github.com/Pimpers/team/tree/master/Assets/Editor), [Tools](https://github.com/Pimpers/team/tree/master/Tools) |
 
-- **카드·스킬**: 4종류 × 3등급 카드, 태그 세트 보너스. 카드 수치는 JSON으로 분리
-- **난이도(타락도) 5단계**: 수치뿐 아니라 함정·엘리트·보스 페이즈 같은 규칙도 단계별로 변경
-- **보스 AI**: 3페이즈 상태머신, 그로기 시스템, 플레이테스트에서 발견한 "발판 캠핑" 대응
-- **영구 성장·저장**: 골드 업그레이드와 세이브 데이터 마이그레이션
-- **개발 도구**: Editor 스크립트와 PowerShell로 씬 생성·에셋 후처리 자동화
+**개발 방식**: Claude Code와 Unity MCP를 활용한 AI 협업 개발입니다. 활용 범위는 [저장소 README](https://github.com/Pimpers/team#readme)에 적었습니다.
 
-AI 도구(Claude Code, Unity MCP)를 활용해 개발했고, 활용 방식은 저장소 README에 적었습니다.
+---
 
-### Git 브랜치 협업 — 병합과 충돌 해결
+## 협업 경험
 
-[저장소](https://github.com/Pimpers/2025oss) · 2026-06 · 4인 팀, 팀장 · C++
+| 프로젝트 | 내용 |
+|---|---|
+| [Git 브랜치 협업 (2025oss)](https://github.com/Pimpers/2025oss) | 2026-06 · 4인 팀 팀장 · C++. `main`과 팀원별 `dev/*` 브랜치를 병합하며 충돌 2건 해결 |
 
-`main`과 팀원별 `dev/*` 브랜치를 병합하면서 충돌 2건을 직접 해결했습니다.
 같은 과제의 다른 저장소: [team10](https://github.com/Pimpers/team10), [Team-Project-](https://github.com/Pimpers/Team-Project-)
+
+---
 
 ## 기술
 
@@ -38,6 +55,8 @@ AI 도구(Claude Code, Unity MCP)를 활용해 개발했고, 활용 방식은 �
 | 주 사용 | C#, Unity |
 | 그 외 언어 | C++, C, Java, Python, SQL |
 | 도구 | Git / GitHub, Visual Studio, Android Studio |
+
+---
 
 ## 학습 기록
 
