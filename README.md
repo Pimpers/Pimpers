@@ -1,86 +1,51 @@
-<div align="center">
+# 박태원
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E3C72,100:8E2DE2&height=220&section=header&text=안녕하세요%20저는%20박태원입니다%20👋&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Game%20Developer%20|%20C%23%20&%20Unity&descAlignY=58&descSize=18" width="100%"/>
+Unity / C# 게임 개발자 지망생 · 유한대학교
 
-<br/>
+로그라이크 게임의 시스템(카드 빌드, 난이도, 보스 AI)을 설계하고 구현하는 일을 하고 싶습니다.
+아래 첫 번째 프로젝트가 그 방향으로 만든 결과물입니다.
 
-![C#](https://img.shields.io/badge/C%23-68217A?style=for-the-badge&logo=csharp&logoColor=white)
-![Unity](https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white)
+## 대표 프로젝트
 
-</div>
+### 고양이 용병단 — Unity 2D 로그라이크
 
-<br/>
+[저장소](https://github.com/Pimpers/team) · 2026 · 팀 프로젝트(코드 담당) · Unity 6, C#
 
-## 👨‍💻 About Me
+스테이지를 돌파하며 카드로 빌드를 만들고, 마을에서 영구 강화를 하는 픽셀 로그라이크입니다.
+C# 스크립트 164개(약 2만 줄), 씬 17개, 커밋 180개.
 
-- 🎮 **Unity / C#** 로 게임 시스템을 만드는 **게임 개발자 지망생**입니다. (유한대학교 재학)
-- 🌱 꿈은 **직접 설계한 로그라이크 게임**을 만드는 것이고, 첫 결과물로 [고양이 용병단](https://github.com/Pimpers/team)을 만들었습니다.
-- 🛠️ 카드·스킬·난이도 같은 **게임 시스템 설계**와, 반복 작업을 줄이는 **도구 자동화**에 관심이 많습니다.
-- 🤝 팀 프로젝트에서 **Git 브랜치 협업, 병합 충돌 해결** 경험이 있습니다.
-- 📍 서울
+코드 담당으로 다룬 주요 시스템
 
-<br/>
+- **카드·스킬**: 4종류 × 3등급 카드, 태그 세트 보너스. 카드 수치는 JSON으로 분리
+- **난이도(타락도) 5단계**: 수치뿐 아니라 함정·엘리트·보스 페이즈 같은 규칙도 단계별로 변경
+- **보스 AI**: 3페이즈 상태머신, 그로기 시스템, 플레이테스트에서 발견한 "발판 캠핑" 대응
+- **영구 성장·저장**: 골드 업그레이드와 세이브 데이터 마이그레이션
+- **개발 도구**: Editor 스크립트와 PowerShell로 씬 생성·에셋 후처리 자동화
 
-## ⭐ 대표 프로젝트
+AI 도구(Claude Code, Unity MCP)를 활용해 개발했고, 활용 방식은 저장소 README에 적었습니다.
 
-### 🐱 [고양이 용병단 — Unity 2D 로그라이크](https://github.com/Pimpers/team)
-`Unity 6` `C#` `URP 2D` · 2026 · 팀 프로젝트 (코드 담당)
+### Git 브랜치 협업 — 병합과 충돌 해결
 
-스테이지를 돌파하며 카드로 빌드를 만들고, 마을에서 영구 강화를 하는 픽셀 로그라이크입니다. C# 스크립트 164개(약 2만 줄), 씬 17개, 커밋 180개 규모예요.
+[저장소](https://github.com/Pimpers/2025oss) · 2026-06 · 4인 팀, 팀장 · C++
 
-- **카드·스킬 시스템**: 4종 카드 × 3등급 × 태그 세트 보너스, 데이터(JSON)와 코드 분리
-- **타락도(난이도) 5단계**: 수치뿐 아니라 규칙까지 바뀌는 재도전 시스템
-- **3페이즈 보스 AI**: 상태머신, 그로기, 플레이테스트로 찾은 캠핑 대응 패턴
-- **도구 자동화**: Editor 스크립트 + PowerShell 에셋 파이프라인
-- **AI 협업 개발**: Claude Code, Unity MCP 활용 (README에 활용 방식 명시)
+`main`과 팀원별 `dev/*` 브랜치를 병합하면서 충돌 2건을 직접 해결했습니다.
+같은 과제의 다른 저장소: [team10](https://github.com/Pimpers/team10), [Team-Project-](https://github.com/Pimpers/Team-Project-)
 
-👉 [자세히 보기](https://github.com/Pimpers/team#readme)
+## 기술
 
-### 🔀 [Git 브랜치 협업 — 4인 팀 병합 · 충돌 해결](https://github.com/Pimpers/2025oss)
-`C++` `Git` `GitHub` · 2026-06 · 팀장
+| 구분 | 내용 |
+|---|---|
+| 주 사용 | C#, Unity |
+| 그 외 언어 | C++, C, Java, Python, SQL |
+| 도구 | Git / GitHub, Visual Studio, Android Studio |
 
-`main` + 팀원별 `dev/*` 브랜치를 병합하며 충돌 2건을 해결한 협업 실습입니다. 같은 과제의 다른 저장소: [team10](https://github.com/Pimpers/team10), [Team-Project-](https://github.com/Pimpers/Team-Project-)
+## 학습 기록
 
-<br/>
-
-## 📚 학습 기록
-
-| 저장소 | 내용 | 언어 |
-|---|---|---|
-| [unitygame](https://github.com/Pimpers/unitygame) | Unity 연습 게임 모음 (2D 플랫포머, 리듬게임, 슈팅, 주사위, 경마 등) | C# |
-| [c_sharp_theory](https://github.com/Pimpers/c_sharp_theory) | C# 이론 학습 (Unity 강의 실습) | C# |
-| [Login](https://github.com/Pimpers/Login) | Smart App Challenge 2022 준비작 — 로그인·회원가입 파트 | Java |
-| [university_C](https://github.com/Pimpers/university_C) | 대학 C언어 강의 실습 | C |
-| [report](https://github.com/Pimpers/report) · [homework](https://github.com/Pimpers/homework) | C언어 과제 | C |
-| [SQL](https://github.com/Pimpers/SQL) | SQL 실습 | SQL |
-| [http](https://github.com/Pimpers/http) | HTML 실습 | HTML |
-| [youtube](https://github.com/Pimpers/youtube) | Python 실습 | Python |
-
-<br/>
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats-fast.vercel.app/api?username=Pimpers&show_icons=true&hide_border=true&bg_color=0D1117&title_color=BB86FC&icon_color=58A6FF&text_color=C9D1D9&ring_color=8E2DE2" width="48%"/>
-<img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Pimpers&layout=compact&hide_border=true&bg_color=0D1117&title_color=BB86FC&text_color=C9D1D9&langs_count=8" width="45%"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Pimpers&hide_border=true&background=0D1117&stroke=8E2DE2&ring=58A6FF&fire=BB86FC&currStreakLabel=BB86FC" width="90%"/>
-
-</div>
-
-<br/>
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:1E3C72&height=120&section=footer" width="100%"/>
-
-</div>
+| 저장소 | 내용 |
+|---|---|
+| [unitygame](https://github.com/Pimpers/unitygame) | Unity 미니 게임 6종 (플랫포머, 리듬, 보드, 슈팅, 경마, 타워 디펜스) |
+| [c_sharp_theory](https://github.com/Pimpers/c_sharp_theory) | C# 문법 정리 (상속, 인터페이스, delegate 등) |
+| [Login](https://github.com/Pimpers/Login) | Android 앱 로그인·회원가입 (Firebase), Smart App Challenge 2022 준비작 |
+| [university_C](https://github.com/Pimpers/university_C), [homework](https://github.com/Pimpers/homework), [report](https://github.com/Pimpers/report) | C언어 강의 실습과 콘솔 게임 과제 |
+| [youtube](https://github.com/Pimpers/youtube) | Python pygame 게임 실습 |
+| [SQL](https://github.com/Pimpers/SQL), [http](https://github.com/Pimpers/http) | SQL, HTML 실습 |
